@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-library | Explore</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    .explore {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.search-box input {
+    width: 50%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+}
+
+.search-button {
+    padding: 12px 20px;
+    background: #e78747;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.search-button:hover{
+     border-color: #010004;
+      transform: scale(1.05);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+  </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">E-Library</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+    <header class="explore">
+        <h1>Explore the Library</h1>
+        <p>Discover new books, notes, guides & more.</p>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search books, authors, subjects..." />
+            <button class="search-button">Search</button>
+        </div>
+    </header>
+</body>
+</html>
